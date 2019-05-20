@@ -1,0 +1,63 @@
+html {
+  background: #FFFBF7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #FFB843;
+}
+body {
+  font-family: 'lato', sans-serif;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+header h2 {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav .navbar {
+  text-decoration: none;
+  padding: 8.5px 23.75px;
+  border: 1px solid #FFB843;
+  margin: 0px 10px 30px;
+  background: #FFB843;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.content p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+.signup h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.signup p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+}
