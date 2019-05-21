@@ -5,51 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tool Shed: Crowdsourcing Your Toolbox</title>
   <link rel="stylesheet" href="css/index.css" type="text/css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+  <script src="index.js" async></script>
   </head>
 
   <body>
     <header>
       <img src="img/Logo.png"></img>
       <nav>
-        <a class="navbar" href="">Home</a>
-        <a class="navbar" href="#Problem">Problem</a>
-        <a class="navbar" href="#Solution">Solution</a>
-        <a class="navbar" href="#Features">Features</a>
-        <a class="navbar" href="#">Join Us!</a>
+        <a class="navbar active-page" href="#Home" data-page="Home">Home</a>
+        <a class="navbar" href="#Problem" data-page="Problem">Problem</a>
+        <a class="navbar" href="#Solution" data-page="Solution">Solution</a>
+        <a class="navbar" href="#Features" data-page="Features">Features</a>
+        <a class="navbar" href="#Signup" data-page="Signup">Join Us!</a>
       </nav>
   
     </header>
 
 <!--Will be made into tabs with JavaScript--> 
     <div>
-      <article class="content">
-        <h3>Problem/Solution</h3>
+      <article class="content active-content" data-page="Home">
+        <h3>Crowdsourcing Your Toolbox</h3>
         <p>I thought today we would do a happy little picture. Use your imagination, let it go.
            I want everbody to be happy. That's what it's all about. You need the dark in order to show the light.
            Little trees and bushes grow however makes them happy. The more we do this - the more it will do good things to our heart.
            That's a son of a gun of a cloud. Let's make some happy little clouds in our world.</p>
       </article>
-      <article class="content">
-        <h3>Streamlined Process</h3>
+      <article class="content" data-page="Problem">
+        <h3>Problem</h3>
         <p>I thought today we would do a happy little picture. Use your imagination, let it go.
            I want everbody to be happy. That's what it's all about. You need the dark in order to show the light.
            Little trees and bushes grow however makes them happy. The more we do this - the more it will do good things to our heart.
            That's a son of a gun of a cloud. Let's make some happy little clouds in our world.</p>
       </article>
-      <article class="content">
-        <h3>Looking To The Future</h3>
+      <article class="content" data-page="Solution">
+        <h3>Solution</h3>
         <p>I thought today we would do a happy little picture. Use your imagination, let it go.
            I want everbody to be happy. That's what it's all about. You need the dark in order to show the light.
            Little trees and bushes grow however makes them happy. The more we do this - the more it will do good things to our heart.
            That's a son of a gun of a cloud. Let's make some happy little clouds in our world.</p>
       </article>
-      <article class="signup">
+      <article class="content" data-page="Features">
+        <h3>Features</h3>
+        <p>I thought today we would do a happy little picture. Use your imagination, let it go.
+           I want everbody to be happy. That's what it's all about. You need the dark in order to show the light.
+           Little trees and bushes grow however makes them happy. The more we do this - the more it will do good things to our heart.
+           That's a son of a gun of a cloud. Let's make some happy little clouds in our world.</p>
+      </article>
+      <article class="content" data-page="Signup">
         <h3>Sign Up Today!</h3>
         <p>I thought today we would do a happy little picture. Use your imagination, let it go.
-            I want everbody to be happy. That's what it's all about. You need the dark in order to show the light.
-            Little trees and bushes grow however makes them happy. The more we do this - the more it will do good things to our heart.
-            That's a son of a gun of a cloud. Let's make some happy little clouds in our world.</p>
+           I want everbody to be happy. That's what it's all about. You need the dark in order to show the light.
+           Little trees and bushes grow however makes them happy. The more we do this - the more it will do good things to our heart.
+           That's a son of a gun of a cloud. Let's make some happy little clouds in our world.</p>
       </article>
     </div>
   </body>
