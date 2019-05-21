@@ -1,37 +1,54 @@
 html {
   background: #FFFBF7;
+  padding: 0px;
 }
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #FFB843;
+  color: #059240;
 }
 body {
   font-family: 'lato', sans-serif;
 }
-header h1 {
-  display: flex;
-  justify-content: center;
+header {
+  background: #059240;
 }
-header h2 {
-  display: flex;
-  justify-content: center;
+header img {
+  width: 50%;
+  height: 50%;
+  max-width: 145px;
+  max-height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 nav {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 nav .navbar {
+  max-width: 330px;
+  width: 90%;
   text-decoration: none;
-  padding: 8.5px 23.75px;
+  padding: 0.532rem 0;
   border: 1px solid #FFB843;
   margin: 0px 10px 30px;
   background: #FFB843;
   color: #ffffff;
   border-radius: 20px;
+  text-align: center;
+  box-shadow: 0.33px 0.66px 1px #0D0D0D;
+}
+@media screen and (min-width: 501px) {
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .content {
   display: flex;
