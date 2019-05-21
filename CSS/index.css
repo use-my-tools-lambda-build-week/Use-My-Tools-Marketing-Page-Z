@@ -7,7 +7,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #FFB843;
+  color: #059240;
 }
 body {
   font-family: 'lato', sans-serif;
@@ -27,9 +27,9 @@ nav {
 nav .navbar {
   text-decoration: none;
   padding: 8.5px 23.75px;
-  border: 1px solid #FFB843;
+  border: 1px solid #059240;
   margin: 0px 10px 30px;
-  background: #FFB843;
+  background: #059240;
   color: #ffffff;
   border-radius: 20px;
 }
