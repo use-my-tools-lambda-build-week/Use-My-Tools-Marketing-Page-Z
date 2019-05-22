@@ -20,5 +20,7 @@ class PageLink {
 }
 
 let links = document.querySelectorAll('.navbar')
+let contents = document.querySelectorAll('.content')
 
+contents[0].style.display = 'flex'
 links.forEach(link => new PageLink(link))
